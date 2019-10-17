@@ -1,0 +1,230 @@
+body {
+  
+  background-color: black; 
+  opacity: 1;
+  color: #FFF;
+  height: 680px;
+    
+}
+
+.brand {
+ margin-bottom: 30px;
+}
+
+.brand img {
+  margin-top: 20px;
+  width: 100%;
+}
+
+main {
+  
+}
+::-webkit-scrollbar {
+  display:none;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 11 */
+}
+
+.ideal{
+  margin: 30px 0;
+}
+
+.includes{
+  margin-bottom: 30px;
+}
+
+
+
+
+.sidebar {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+main h1{
+  font-size: 20px;
+  color:#01D501;
+}
+.title{
+ font-size: 24px;
+ font-weight: bold;
+ color: #01D501;
+}
+
+.title a{
+  color: #01D501;
+}
+main h1 span{
+  color: #FFF;
+}
+
+p {
+    font-weight: 200;
+}
+.hero{
+  margin-top: 30px;
+}
+.next-generation{
+  font-weight: lighter;
+  font-size: 28px;
+  font-style: italic;
+
+}
+
+.sidebar .banner {
+    
+    padding: 15px;
+    background:#01D501;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    flex-direction: column;
+    
+}
+/*
+.sidebar .banner img {
+  width: 124%;
+  position: relative;
+  left: 142px;
+} */
+
+#vid{
+  position: relative;
+}
+.spirit{
+  width: 100%;
+  position: relative;
+  left: 14px;
+}
+.video{
+    
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+.outer-image{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.inner-image {
+  position: absolute;
+  top: 10px;
+  left: 45px;
+  width: 20%;
+}
+@media only screen and (max-width: 768px) {
+  .inner-image {
+    position: absolute;
+    top: 10px;
+    left: 14px;
+    width: 25%;
+  }
+}
+
+._users{
+  display: flex;
+  align-items: flex-start;
+}
+
+._users-list ul li{
+ font-size: 14px;
+}
+
+.form {
+    background-color: #848383;
+    padding: 15px;  
+}
+
+.form-control{
+  margin:8px 0;
+}
+.pad-left {
+    padding-left: 5px;
+}
+
+
+.pad-right {
+    padding-right: 5px;
+}
+
+.mt5 {
+    margin-top: 15px;
+}
+
+.my10 {
+    margin: 25px 0;
+}
+
+.btn-levimate {
+    background-color: #5ac343;
+    width: 100%;
+    border: 1px solid #5ac343;
+    
+}
+.description{
+  font-size: 14px;
+  margin-top: 15px;
+  color: #fff;
+}
+label{
+    margin-bottom: 0;
+}
+
+.mymodal-body{
+  background: black;
+  width: 140%;
+ 
+}
+.mymodal-footer{
+  background: black;
+  width: 140%;
+}
+.btn-secondary{
+  margin-right:300px;
+}
+
+.vid{
+  
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  text-align: left;
+  padding: 8px;
+  color: black;
+}
+
+th{
+background: #01D501;
+color:#fff;
+}
+tr{
+background: #fff;
+}
+
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.links{
+  display: flex;
+}
+.links a{
+  color:#fff;
+  text-decoration: underline;
+  text-underline-position: under;
+  margin: 5px;
+}
+
+
